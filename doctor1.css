@@ -1,0 +1,135 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0;
+   /* Remove default padding */
+  }
+  
+  
+  
+  header{background-color: #1B4965;
+    height: 65px;
+  }
+  
+  
+  #menu {
+      display: none;
+      position: absolute;
+      background-color: #1B4965;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      z-index: 1;
+      height: 553px;
+      width:120px;
+    
+    }
+    .bu{margin-top: 370px;
+      background-color: #1B4965; /* Background color of the button */
+      color: #fff; /* Text color of the button */
+      border: none; /* Remove button border */
+      padding:0px ;/* Padding inside the button */
+      font-size: 16px; /* Font size of the text */
+      cursor: pointer;
+      margin-left: 10px;
+      display: flex;
+     
+    }
+    
+  .l{display: flex; /* Use flexbox for icon and text layout */
+    align-items: center;}
+  
+  
+  
+    .logout-icon {
+      margin-right: 7px; /* Adjust the space between the icon and text */
+    }
+    .logouttext{
+    font-size: 16px;
+  }
+  .linkcont a{  display: block; 
+    margin-bottom: 10px; 
+    text-decoration: none; 
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.linkcont a:hover{cursor: pointer;
+color: #CAE9FF;}
+  
+  .a {
+    width: 43px;
+    height: 3px;
+    background-color:white;
+    margin: 6px 0;
+    margin-top: 10px;
+    margin-left:5px;  
+  }
+  .button{border:none;
+    cursor: pointer;
+    background-color: #1B4965;
+    margin-top: 4px;
+}
+.hidden {
+    display: none;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .left img {
+    width: 100px; /* Adjust the width of the picture */
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    
+  }
+  
+  .star {
+    display: inline-block;
+    font-size: 30px;
+    color: #c7b4b4;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .star:hover,
+  .star:hover ~ .star {
+    color: #ffcc00;
+  }
+  
+  
+.push{margin-left:200px;
+margin-top: 30px;}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item img {
+  width: 20px; /* Adjust the width of the picture */
+  height: auto;
+  margin-right: 10px; /* Adjust the spacing between picture and text */
+}
+  
+  
+ 
