@@ -129,3 +129,8 @@ header{background-color: #1B4965;}
   text-decoration: none;
   font-weight: bold;
 }
+*{font-family: "Inter", sans-serif;
+  font-weight: weight;
+  font-style: normal;}
+h1{font-size: 30px;}
+h2{font-size: 35px;}
