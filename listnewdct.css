@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #5598a5;
+    color: #020202;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.brand {
+    font-size: 20px;
+    margin-left: 20px; 
+    font-family: "Major Mono Display";
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    margin-right: 150px; }
+
+.search-bar input[type="text"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+ .mail-icon i{
+    margin-left: auto;
+    width: 30px;
+    color: #020202;
+    
+   
+}
+
+.profile-section {
+    background-color: #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: bold;
+}
+
+
+
+.sidebar {
+    background-color:white;
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left; 
+    overflow: auto;
+    border-right: #999;
+    border-right-style: solid;
+    border-width: 1px;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    color: black;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+.sidebar-menu li a {
+    text-decoration: none;
+    color: black;
+    padding:10px 0;
+
+}
+
+.sidebar-menu li a:hover {
+    background-color: #5598a5;
+    
+}
+.sidebar p {
+    margin-top: 330px;
+    font-size:1px ;
+}
+.accept-doctors-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+   margin:auto;
+    max-width: 800px;
+    margin-right: 200px;}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+   
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #5598a5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #5598a5;
+}
