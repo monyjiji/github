@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.cover-container {
+    position: relative;
+    overflow: hidden; /* Hide overflowing content */
+    width: 100%;
+    height: 500px;
+   
+}
+
+.cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('hp.jpg'); /* Replace 'your-image.jpg' with your image path */
+    background-size: cover;
+    z-index: -1; /* Place the image behind other content */
+    background-attachment: fixed;
+}
+
+.content {
+   
+
+
+    position: absolute;
+    top: 55%;
+    left: 80px; /* Adjust left position for text */
+    transform: translateY(-50%);
+    width: 400px; /* Adjust width of text area */
+    height: 300px; /* Adjust height of text area */
+    padding: 20px;
+    
+    color: black;
+}
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn{color:white;
+background-color: #1B4965;
+border:1px solid #1B4965;
+cursor: pointer;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 20px; }
+.btn a {
+    text-decoration: none; 
+    color: inherit;}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:30px;
+    padding-right:30px;
+   
+  
+   
+}
+
+.image {
+    flex: 1;
+    margin-right: 20px;
+   margin-left: 30px;
+}
+
+.image img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+}
+
+.ctt {
+    flex: 1;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+    justify-content: space-around;
+    margin-top:20px;
+  
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1B4965; /* Example button background color */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.ctt h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.ctt p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.sr{background-color: #eeeeee;    display: flex;
+    flex-wrap: wrap;
+}
+
+.sr h1{font-size: 40px;
+margin-left: 80px;
+margin-bottom: 50px;
+width: 100%;
+margin-top: 40px;
+}
+
+.box {
+    flex: 1;
+    margin-right: 150px; /* Adjust the space between boxes */
+    max-width: calc(33.33% - 20px); /* Adjust box width with space between them */
+    margin-left: 100px;
+    
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.box img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: 5px;
+}
+.box h3{ margin-left: 5px;}
+
+.contai {
+    display: flex;
+    align-items: flex-start;
+}
+
+.imag {
+    flex: 2;
+    margin-right: 0; 
+}
+
+.imag img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.boxes {
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+}
+
+.bx {
+    border: 1px solid #eeeeee; /* Example border */
+    text-align: center;
+   padding-top:9.5px;
+  
+   padding-bottom:14.5px;
+    flex: 0 0 calc(25% - 2px);
+    margin: 0;
+}
+
+
+
+.bx i {
+    font-size: 40px; /* Adjust icon size */
+}
+
+.bx h3 {
+    margin-top: 6px; 
+    margin-bottom:1px ;/* Adjust space between icon and title */
+}
+.bx p{max-width: 150px;
+max-height: 24px;
+margin-left: 1px;
+margin-right: 1px;}
+
+
+.stethoscope-icon {
+    color: #3a7Cbf; /* Change the color to blue */
+}
+.bx:hover {
+    background-color: #3a7Cbf;
+    color: white; /* Change color on hover */
+}
+
+.bx:hover i {
+    color: white; /* Change icon color on hover */
+}
+
+
+
+
