@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; 
+        }
+        .container {
+            width: 300px;
+           
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        p {
+            text-align: center;
+           
+        }
+        
+
+        form {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .verification-code input[type="text"] {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            font-size: 20px;
+            margin: 0 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        input[type="submit"] {
+            width: 45%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5598a5;
+            color: #fff;
+            cursor: pointer;
+            text-align: center;
+        }
+        input[type="submit"]:hover {
+            background-color: #5598a5;
+        }
+        .verification-code {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            margin-bottom: 35px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Code verification</h2>
+        
+        <form action="reset_password.php" method="post">
+            <p>Please enter the code you received:</p>
+            <div class="verification-code">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                
+            </div>
+            <input type="submit" value="Reset password">
+        </form>
+    </div>
+</body>
+</html>
